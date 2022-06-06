@@ -123,7 +123,7 @@ margin-left: auto;
   align-items: center;
 }
 
-.list-link:hover {
+.list-link:hover, .list-link:focus {
   color: var(--active-element-color);
 }
 
@@ -344,7 +344,7 @@ margin-bottom: 50px;
 }
 
 
-.social-link:hover {
+.social-link:hover, .social-link:focus         {
   background-color: var(--active-element-color);
   color: #ffffff;
   fill: #ffffff;
@@ -374,7 +374,7 @@ margin-bottom: 50px;
   color: var(--social-icon-color);
 }
 
-.customers-link :hover {
+.customers-link :hover, .customers-link:focus      {
   color:var(--active-element-color);
 }
 
